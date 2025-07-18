@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eloggia & Elous Design - Architects, Urban Planners & Engineers</title>
+    <meta name="description" content="Leading architectural firm in Abuja, Nigeria specializing in architecture, urban planning, engineering, and project management.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Eloggia & Elous</h2>
+                <span>Design</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Slider Section -->
+    <section id="home" class="hero-slider">
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                <div class="slide active">
+                    <div class="slide-image" style="background-image: url('images/Site1.jpeg')">
+                        <div class="slide-overlay"></div>
+                    </div>
+                    <div class="slide-content">
+                        <h1>Building Tomorrow's Vision Today</h1>
+                        <p>We are Abuja's premier architectural firm, creating exceptional spaces that inspire. From luxury homes to commercial complexes, we bring your vision to life with innovative design, expert engineering, and flawless project delivery.</p>
+                        <div class="hero-buttons">
+                            <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+                            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                    <div class="slide-image" style="background-image: url('images/site2.jpeg')">
+                        <div class="slide-overlay"></div>
+                    </div>
+                    <div class="slide-content">
+                        <h1>Luxury Residential Design</h1>
+                        <p>Transform your dream home into reality. We design stunning residential spaces that blend modern aesthetics with practical living. Every detail is crafted to create the perfect balance of beauty and functionality.</p>
+                        <div class="hero-buttons">
+                            <a href="#services" class="btn btn-primary">Our Services</a>
+                            <a href="#about" class="btn btn-secondary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                    <div class="slide-image" style="background-image: url('images/site3.jpeg')">
+                        <div class="slide-overlay"></div>
+                    </div>
+                    <div class="slide-content">
+                        <h1>Landscape Architecture</h1>
+                        <p>Breathe life into your outdoor spaces. We create stunning landscapes that harmonize with nature while enhancing your property's beauty and value. From gardens to public spaces, we make every outdoor area extraordinary.</p>
+                        <div class="hero-buttons">
+                            <a href="#portfolio" class="btn btn-primary">View Projects</a>
+                            <a href="#contact" class="btn btn-secondary">Start Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                    <div class="slide-image" style="background-image: url('images/site4.jpeg')">
+                        <div class="slide-overlay"></div>
+                    </div>
+                    <div class="slide-content">
+                        <h1>Modern Commercial Spaces</h1>
+                        <p>Elevate your business with spaces that inspire success. We design innovative commercial buildings and offices that boost productivity, reflect your brand, and create lasting impressions. Your success starts with great design.</p>
+                        <div class="hero-buttons">
+                            <a href="#services" class="btn btn-primary">Our Process</a>
+                            <a href="#contact" class="btn btn-secondary">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                    <div class="slide-image" style="background-image: url('images/site5.jpeg')">
+                        <div class="slide-overlay"></div>
+                    </div>
+                    <div class="slide-content">
+                        <h1>Engineering Excellence</h1>
+                        <p>Build with confidence. Our engineering expertise ensures every project stands strong for generations. We combine innovative solutions with proven techniques to deliver structures that exceed expectations and withstand the test of time.</p>
+                        <div class="hero-buttons">
+                            <a href="#portfolio" class="btn btn-primary">View Projects</a>
+                            <a href="#contact" class="btn btn-secondary">Start Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slider Navigation -->
+            <div class="slider-nav">
+                <button class="slider-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            
+            <!-- Slider Indicators -->
+            <div class="slider-indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+                <span class="indicator" data-slide="3"></span>
+                <span class="indicator" data-slide="4"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Eloggia & Elous Design</h2>
+                <p>Excellence in every project, innovation in every design</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Your Vision, Our Expertise</h3>
+                    <p>Eloggia & Elous Design is Abuja's trusted partner for exceptional architecture. We bring over a decade of experience in creating spaces that inspire, function beautifully, and stand the test of time.</p>
+                    <p>From concept to completion, we handle every aspect of your project with precision and creativity. Our team combines innovative design with sustainable practices to deliver results that exceed expectations.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>50+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>10+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h4>100%</h4>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-placeholder">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive solutions for your architectural needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Architecture</h3>
+                    <p>Innovative architectural design that combines aesthetics, functionality, and sustainability to create spaces that inspire and endure.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-city"></i>
+                    </div>
+                    <h3>Urban Planning</h3>
+                    <p>Strategic urban planning solutions that create sustainable, livable communities for the future.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Engineering</h3>
+                    <p>Comprehensive engineering services ensuring structural integrity, efficiency, and innovation in every project.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Project Management</h3>
+                    <p>End-to-end project management ensuring timely delivery, quality control, and client satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Portfolio</h2>
+                <p>Showcasing our finest architectural achievements</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80')">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <i class="fas fa-home"></i>
+                                <h4>View Details</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Luxury Villa Design</h3>
+                        <p>Contemporary luxury villa with modern amenities and sustainable features</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <i class="fas fa-building"></i>
+                                <h4>View Details</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Modern Office Complex</h3>
+                        <p>State-of-the-art office building in Abuja Central Business District</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2035&q=80')">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <i class="fas fa-leaf"></i>
+                                <h4>View Details</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Landscape Design</h3>
+                        <p>Beautiful landscape architecture for residential and commercial projects</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2075&q=80')">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <i class="fas fa-university"></i>
+                                <h4>View Details</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Educational Facility</h3>
+                        <p>Modern educational campus design with innovative learning spaces</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1600607687644-c7171b42498b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <i class="fas fa-home"></i>
+                                <h4>View Details</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Contemporary House</h3>
+                        <p>Modern residential design with clean lines and open concept living</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <i class="fas fa-shopping-mall"></i>
+                                <h4>View Details</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Commercial Center</h3>
+                        <p>Innovative retail and commercial space design for modern businesses</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to start your next project? Let's discuss your vision.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Abuja, Nigeria</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+234 803 383 7798</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+234 803 383 7798</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@eloggiaelous.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Select Service</option>
+                                <option value="architecture">Architecture</option>
+                                <option value="urban-planning">Urban Planning</option>
+                                <option value="engineering">Engineering</option>
+                                <option value="project-management">Project Management</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell us about your project" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Eloggia & Elous Design</h3>
+                    <p>Building tomorrow's vision today with innovative design, urban planning, engineering excellence, and comprehensive project management.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Architecture</a></li>
+                        <li><a href="#services">Urban Planning</a></li>
+                        <li><a href="#services">Engineering</a></li>
+                        <li><a href="#services">Project Management</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Phone: +234 803 383 7798</p>
+                    <p>WhatsApp: +234 803 383 7798</p>
+                    <p>Location: Abuja, Nigeria</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Eloggia & Elous Design. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
