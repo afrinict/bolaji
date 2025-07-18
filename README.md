@@ -1,6 +1,6 @@
-# Eloggia & Elous Design - Professional Website
+# EULOGIA & ELEOS LIMITED - Professional Website
 
-A modern, responsive website for Eloggia & Elous Design, a premier architectural firm based in Abuja, Nigeria. The website showcases their expertise in architecture, urban planning, engineering, and project management.
+A modern, responsive website for EULOGIA & ELEOS LIMITED, a premier architectural firm based in Abuja, Nigeria. The website showcases their expertise in architecture, urban planning, engineering, and project management.
 
 ## 🌟 Features
 
@@ -30,7 +30,7 @@ A modern, responsive website for Eloggia & Elous Design, a premier architectural
 - **Phone**: +234 803 383 7798
 - **WhatsApp**: +234 803 383 7798
 - **Location**: Abuja, Nigeria
-- **Email**: info@eloggiaelous.com
+- **Email**: info@eulogiaeleos.com
 
 ## 🚀 Getting Started
 
@@ -45,7 +45,7 @@ A modern, responsive website for Eloggia & Elous Design, a premier architectural
 
 ### File Structure
 ```
-eloggia-elous-website/
+eulogia-eleos-website/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styles and responsive design
 ├── script.js           # JavaScript functionality
@@ -151,7 +151,7 @@ For technical support or customization requests, please contact the development 
 
 ---
 
-**Eloggia & Elous Design**  
+**EULOGIA & ELEOS LIMITED**  
 *Building Tomorrow's Vision Today*  
 📍 Abuja, Nigeria  
 📞 +234 803 383 7798  

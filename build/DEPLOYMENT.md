@@ -1,4 +1,4 @@
-# Eloggia & Elous Design - Deployment Guide
+# EULOGIA & ELEOS LIMITED - Deployment Guide
 
 ## 🚀 Production Deployment
 
@@ -54,4 +54,4 @@
 - Monitor website performance
 
 ---
-Built with ❤️ for Eloggia & Elous Design
+Built with ❤️ for EULOGIA & ELEOS LIMITED

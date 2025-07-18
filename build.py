@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build script for Eloggia & Elous Design website
+Build script for EULOGIA & ELEOS LIMITED website
 Optimizes files for production deployment
 """
 
@@ -96,7 +96,7 @@ def create_deployment_files(build_dir):
     """Create additional deployment files"""
     
     # Create .htaccess for Apache
-    htaccess_content = """# Eloggia & Elous Design Website
+    htaccess_content = """# EULOGIA & ELEOS LIMITED Website
 # Apache Configuration
 
 # Enable compression
@@ -141,7 +141,7 @@ def create_deployment_files(build_dir):
 Allow: /
 
 # Sitemap
-Sitemap: https://eloggiaelous.com/sitemap.xml
+Sitemap: https://eulogiaeleos.com/sitemap.xml
 """
     
     with open(build_dir / "robots.txt", "w", encoding="utf-8") as f:
@@ -149,9 +149,9 @@ Sitemap: https://eloggiaelous.com/sitemap.xml
     
     # Create sitemap.xml
     sitemap_content = """<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://eloggiaelous.com/</loc>
+        <loc>https://eulogiaeleos.com/</loc>
         <lastmod>2024-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -164,7 +164,7 @@ Sitemap: https://eloggiaelous.com/sitemap.xml
 
 def create_deployment_guide(build_dir):
     """Create deployment guide"""
-    guide_content = """# Eloggia & Elous Design - Deployment Guide
+    guide_content = """# EULOGIA & ELEOS LIMITED - Deployment Guide
 
 ## 🚀 Production Deployment
 
@@ -220,7 +220,7 @@ def create_deployment_guide(build_dir):
 - Monitor website performance
 
 ---
-Built with ❤️ for Eloggia & Elous Design
+Built with ❤️ for EULOGIA & ELEOS LIMITED
 """
     
     with open(build_dir / "DEPLOYMENT.md", "w", encoding="utf-8") as f:
@@ -228,7 +228,7 @@ Built with ❤️ for Eloggia & Elous Design
 
 def main():
     """Main build process"""
-    print("🏗️  Starting build process for Eloggia & Elous Design...")
+    print("🏗️  Starting build process for EULOGIA & ELEOS LIMITED...")
     
     # Create build directory
     build_dir = create_build_directory()
